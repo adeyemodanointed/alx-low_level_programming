@@ -19,13 +19,16 @@ int main(void)
 		{
 			for (i = n; i <= 9; i++)
 			{
-				for (j = m + 1; j <= 9; j++)
+				for (j = 0; j <= 9; j++)
 				{
 					putchar(n % 10 + '0');
 					putchar(m % 10 + '0');
 					putchar(' ');
-					putchar(i % 10 + '0');
-					putchar(j % 10 + '0');
+					if (n * 10 + m < i * 10 + j)
+					{
+						putchar(i % 10 + '0');
+						putchar(j % 10 + '0');
+					}
 					if (n != 9 && m != 8)
 					{
 						putchar(',');
