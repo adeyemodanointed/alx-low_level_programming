@@ -2,19 +2,20 @@
 #include <time.h>
 #include <stdio.h>
 /**
-*main - print all alphabets function.
+*main - print all alphabets in reverse order function.
 *
 *Return: (success)
 */
 int main(void)
 {
-	char n = '0';
+	char c = 'z';
 
-	while (n <= 9)
+	while (c >= 'a')
 	{
-		putchar(n);
-		n++;
+		putchar(c);
+		c--;
 	}
+
 	putchar('\n');
 
 	return (0);
