@@ -17,7 +17,7 @@ int main(void)
 	{
 		for (m = 0; m < 9; m++)
 		{
-			for (i = n; i <= 9; i++)
+			for (i = 0; i <= 9; i++)
 			{
 				for (j = 0; j <= 9; j++)
 				{
