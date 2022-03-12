@@ -23,16 +23,16 @@ int main(void)
 				{
 					if (n * 10 + m < i * 10 + j)
 					{
-						putchar(n % 10 + '0');
-						putchar(m % 10 + '0');
+					putchar(n % 10 + '0');
+					putchar(m % 10 + '0');
+					putchar(' ');
+					putchar(i % 10 + '0');
+					putchar(j % 10 + '0');
+					if (n != 9 && m != 8)
+					{
+						putchar(',');
 						putchar(' ');
-						putchar(i % 10 + '0');
-						putchar(j % 10 + '0');
-						if (n != 9 && m != 8)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+					}
 					}
 				}
 			}
