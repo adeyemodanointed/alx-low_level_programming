@@ -21,11 +21,11 @@ int main(void)
 			{
 				for (j = 0; j <= 9; j++)
 				{
-					putchar(n % 10 + '0');
-					putchar(m % 10 + '0');
-					putchar(' ');
 					if (n * 10 + m < i * 10 + j)
 					{
+						putchar(n % 10 + '0');
+						putchar(m % 10 + '0');
+						putchar(' ');
 						putchar(i % 10 + '0');
 						putchar(j % 10 + '0');
 					}
