@@ -6,10 +6,10 @@
 */
 int main()
 {
-	char str[] = {"_", "p", "u", "t", "c", "h", "a", "r"};
+	char *str[8] = {"_", "p", "u", "t", "c", "h", "a", "r"};
 	int i = 0;
 
-	while(i < strlen(str))
+	while(i < 8)
 	{
 		_putchar(str[i]);
 	}
