@@ -13,6 +13,6 @@ while (i <= 122)
 _putchar(i);
 }
 
-_putchar("\n");
+_putchar('\n');
 return;
 }
