@@ -6,7 +6,7 @@
  *
  * Return: absolute value
  */
-int _abs(int n)
+void print_to_98(int n)
 {
 
 if (n >= 0)

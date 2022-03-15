@@ -6,7 +6,7 @@
  *
  * Return: absolute value
  */
-int _abs(int n)
+void times_table(void)
 {
 
 if (n >= 0)

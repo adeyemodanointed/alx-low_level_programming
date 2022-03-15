@@ -6,7 +6,7 @@
  *
  * Return: absolute value
  */
-int _abs(int n)
+void jack_bauer(void)
 {
 
 if (n >= 0)

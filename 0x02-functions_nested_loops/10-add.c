@@ -6,7 +6,7 @@
  *
  * Return: absolute value
  */
-int _abs(int n)
+int add(int, int)
 {
 
 if (n >= 0)
