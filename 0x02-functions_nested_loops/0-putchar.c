@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <main.h>
 /**
  * This is the main function
  *
@@ -7,7 +7,7 @@
 */
 int main()
 {
-	printf("_putchar");
+	_putchar("_putchar");
 
 	return 0;
 }
