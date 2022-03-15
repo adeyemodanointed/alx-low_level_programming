@@ -8,11 +8,10 @@
  */
 int _isalpha(int c)
 {
-int i = isalpha(c);
 
-if (i == 0)
-	return (0);
+if ((c >= 65 || c <= 122) && c > 96 && c < 91)
+	return (1);
 
 else
-	return (1);
+	return (0);
 }
