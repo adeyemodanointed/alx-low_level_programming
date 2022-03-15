@@ -6,7 +6,7 @@
  *
  * Return: 1 if lower and 0 if not
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
 int i = isalpha(c);
 
