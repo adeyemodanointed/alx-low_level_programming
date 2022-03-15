@@ -1,13 +1,18 @@
 #include "main.h"
 /**
- * This is the main function
+ * Main - print _putchar
  *
- * Function and nexted loop using _putchar
- *
+ *Return 0 - Success
 */
 int main()
 {
-	_putchar("_putchar");
+	char str[] = {"_", "p", "u", "t", "c", "h", "a", "r"};
+	int i = 0;
+
+	while(i < strlen(str))
+	{
+		_putchar(str[i]);
+	}
 
 	return 0;
 }
