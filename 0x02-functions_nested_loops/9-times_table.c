@@ -25,10 +25,14 @@ while (i < 10)
 	{
 	_putchar(y + '0');
 	}
-	if (!(j == 9 && i == 9))
+	if (j != 9))
 	{
 	_putchar(',');
 	_putchar(' ');
+	}
+	else
+	{
+	_putchar('\n');
 	}
 	j++;
 	}
