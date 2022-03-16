@@ -18,12 +18,12 @@ while (i < 10)
 	
 	if (y > 10)
 	{
-	_putchar(y / 10);
-	_putchar(y % 10);
+	_putchar((y / 10) + '0');
+	_putchar((y % 10) + '0');
 	}
 	else
 	{
-	_putchar(y);
+	_putchar(y + '0');
 	}
 	if (j != 9)
 	{
