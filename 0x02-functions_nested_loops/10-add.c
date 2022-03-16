@@ -1,20 +1,15 @@
 #include "main.h"
 /**
- * _abs - print absolute value
+ * add - print sum of two numbers
  *
- * @n: single integer
+ * @a: single integer
+ * @b: single integer
  *
  * Return: absolute value
  */
-int add(int, int)
+int add(int a, int b)
 {
 
-if (n >= 0)
-{
-return (n);
-}
-else
-{
-return (n * (-1));
-}
+return (a + b);
+
 }

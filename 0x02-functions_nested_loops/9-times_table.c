@@ -13,6 +13,7 @@ while (i < 10)
 	while (j < 10)
 	{
 	int y = i * j;
+
 	_putchar(y);
 	if (j != 9)
 	{
