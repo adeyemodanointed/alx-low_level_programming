@@ -1,20 +1,25 @@
 #include "main.h"
 /**
- * _abs - print absolute value
+ * times_table - print 9 times table
  *
- * @n: single integer
- *
- * Return: absolute value
+ * Return: void
  */
 void times_table(void)
 {
+int i = 0, j = 0;
 
-if (n >= 0)
+while (i < 10)
 {
-return (n);
-}
-else
-{
-return (n * (-1));
+	while (j < 10)
+	{
+	int y = i * j;
+	_putchar(y);
+	if (j != 9)
+	{
+	_putchar(',');
+	_putchar(' ');
+	}
+	}
+return;
 }
 }
