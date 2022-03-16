@@ -19,7 +19,9 @@ while (i < 10)
 	_putchar(',');
 	_putchar(' ');
 	}
+	j++;
 	}
-return;
+i++;
 }
+return;
 }
