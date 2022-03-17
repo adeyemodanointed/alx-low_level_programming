@@ -16,7 +16,7 @@ if (n == 0)
 break;
 }
 
-_putchar('_');
+_putchar(95);
 
 j++;
 }
