@@ -2,7 +2,7 @@
 /**
  * print_line - prints line the length of n
  *
- *  @n: integer 
+ * @n: integer
  * Return: Always void.
  */
 void print_line(int n)
