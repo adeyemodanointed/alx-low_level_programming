@@ -5,8 +5,8 @@
  *
  * Return: 0 for Success
  */
-int main(void) {
-
+int main(void)
+{
 for (int i = 1; i <= 100; i++)
 {
 if (i % 15 == 0)
