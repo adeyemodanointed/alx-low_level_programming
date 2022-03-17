@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
  * main - fizzbuzz program
  *
@@ -20,5 +19,5 @@ else
 printf("%d ", i);
 }
 
-return 0;
+return (0);
 }
