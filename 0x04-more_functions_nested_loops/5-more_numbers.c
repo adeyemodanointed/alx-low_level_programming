@@ -22,7 +22,7 @@ _putchar(i % 10 + '0');
 i++;
 }
 
-putchar('\n');
+_putchar('\n');
 j++;
 }
 return;
