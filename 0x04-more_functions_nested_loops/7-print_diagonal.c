@@ -14,11 +14,11 @@ _putchar('\n');
 return;
 }
 
-int i;
+int i, j;
 
 for (i = 0; i < n; i++)
 {
-int j = 0;
+j = 0;
 
 while (j < i)
 {
