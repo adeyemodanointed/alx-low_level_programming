@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * _abs - print absolute value
+ * jack_bauer - print all minutes in a day
  *
- * @n: single integer
- *
- * Return: absolute value
+ * Return: void
  */
 void jack_bauer(void)
 {
