@@ -15,7 +15,7 @@ while (i < 10)
 	while (j < 10)
 	{
 	int y = i * j;
-	
+
 	if (y > 10)
 	{
 	_putchar((y / 10) + '0');
@@ -28,6 +28,8 @@ while (i < 10)
 	if (j != 9)
 	{
 	_putchar(',');
+	if (y < 10)
+		_putchar(' ');
 	_putchar(' ');
 	}
 	else
