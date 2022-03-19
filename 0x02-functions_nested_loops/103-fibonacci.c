@@ -10,7 +10,7 @@ int main(void)
 long i, j, n, mid, sum;
 i = 1;
 j = 2;
-sum = 3
+sum = 3;
 
 printf("%ld, ", i);
 printf("%ld, ", j);
