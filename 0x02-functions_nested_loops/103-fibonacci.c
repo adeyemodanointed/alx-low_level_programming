@@ -12,9 +12,6 @@ i = 1;
 j = 2;
 sum = 3;
 
-printf("%ld, ", i);
-printf("%ld, ", j);
-
 for (n = 0; n < 48 ; n++)
 {
 if (i + j < 4000000)
@@ -32,7 +29,8 @@ mid = i;
 i = j;
 j += mid;
 }
-printf("\n");
+
+printf("%ld\n", sum);
 
 return (0);
 }
