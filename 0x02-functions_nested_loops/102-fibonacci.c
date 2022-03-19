@@ -24,6 +24,7 @@ j += mid;
 if (n < 47)
 printf(", ");
 }
+printf("\n");
 
 return (0);
 }
