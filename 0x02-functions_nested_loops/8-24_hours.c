@@ -21,6 +21,7 @@ for (hour = 0; hour < 24; hour++)
 		_putchar(min / 10 + '0');
 		_putchar(min % 10 + '0');
 	}
+	_putchar('\n');
 }
 
 return;
