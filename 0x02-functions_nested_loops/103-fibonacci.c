@@ -10,7 +10,7 @@ int main(void)
 long i, j, n, mid, sum;
 i = 1;
 j = 2;
-sum = 3;
+sum = 2;
 
 for (n = 0; n < 48 ; n++)
 {
