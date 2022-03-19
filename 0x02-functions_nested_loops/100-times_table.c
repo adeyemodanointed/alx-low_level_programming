@@ -8,10 +8,12 @@
  */
 void print_times_table(int n);
 {
+int i;
+
 if (n < 0 || n > 15)
 {
 	_putchar('\n');
-	return;
+	i = 16;
 }
 
 while (i < n)
@@ -22,6 +24,7 @@ while (i < n)
 	{
 	int y = i * j;
 	int f, s;
+	
 	f = y / 100;
 	s = y % 100;
 
@@ -41,7 +44,7 @@ while (i < n)
 	_putchar(y + '0');
 	}
 
-	if (j != n-1)
+	if (j != n - 1)
 	{
 	_putchar(',');
 	if (i * (j + 1) < 100)
