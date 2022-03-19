@@ -11,8 +11,8 @@ long i, j, n, mid;
 i = 1;
 j = 2;
 
-printf("%d, ", i);
-printf("%d, ", j);
+printf("%ld, ", i);
+printf("%ld, ", j);
 
 for (n = 0; n < 48 ; n++)
 {
