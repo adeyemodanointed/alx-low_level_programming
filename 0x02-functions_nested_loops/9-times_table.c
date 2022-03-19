@@ -16,7 +16,7 @@ while (i < 10)
 	{
 	int y = i * j;
 
-	if (y > 10)
+	if (y >= 10)
 	{
 	_putchar((y / 10) + '0');
 	_putchar((y % 10) + '0');
