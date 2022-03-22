@@ -12,8 +12,7 @@ void _puts(char *str)
 {
 	int n = 0;
 	int i;
-	char ch[] = *str;
-
+	
 	while (*(str + n) != '\0')
 	{
 		n++;
@@ -21,7 +20,7 @@ void _puts(char *str)
 
 	for (i = 0; i < n; i++)
 	{
-	_putchar(ch[n]);
+	_putchar(*(str + i));
 	}
 	_putchar('\n');
 
