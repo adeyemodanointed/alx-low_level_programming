@@ -18,10 +18,12 @@ void rev_string(char *s)
 	n++;
 	}
 
+	char p[n];
 	for (i = n - 1; i >= 0; i--)
 	{
-		_putchar(s[i]);
+		s[i] = p[n - i + 1];
 	}
+	
 	_putchar('\n');
 
 }
