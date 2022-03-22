@@ -11,17 +11,17 @@
 void _puts(char *str)
 {
 	int n = 0;
+	int i;
+	char ch[] = *str;
 
 	while (*(str + n) != '\0')
 	{
 		n++;
 	}
 
-	int i;
-
 	for (i = 0; i < n; i++)
 	{
-	_putchar(*(str + n));
+	_putchar(ch[n]);
 	}
 	_putchar('\n');
 
