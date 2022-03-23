@@ -20,7 +20,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	while (src[y] != '\0')
 		y++;
-	
+
 	if (n > y)
 		check = y;
 	else
