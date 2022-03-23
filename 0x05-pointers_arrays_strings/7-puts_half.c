@@ -12,11 +12,11 @@ int n = 0;
 
 while (str[count] != '\0')
 count++;
-}
+
 if (count % 2 == 0)
 n = count / 2;
 else
-n = (count / 2) + 1;
+n = (count / 2) - 1;
 
 while (n < count)
 {
