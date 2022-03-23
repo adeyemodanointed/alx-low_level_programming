@@ -16,7 +16,7 @@ count++;
 if (count % 2 == 0)
 n = count / 2;
 else
-n = (count / 2) - 1;
+n = (count + 1) / 2;
 
 while (n < count)
 {
