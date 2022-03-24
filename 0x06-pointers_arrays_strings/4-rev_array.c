@@ -13,8 +13,6 @@ int i;
 int temp;
 n--;
 
-printf("n: %d\n", n);
-
 for (i = 0; i <= (n / 2) - 1; i++)
 {
 temp = a[i];
