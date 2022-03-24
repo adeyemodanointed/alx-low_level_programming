@@ -7,7 +7,7 @@
  * @n: length of array
  * Return: Always void.
  */
-void reverse_array(char *a, int n)
+void reverse_array(int *a, int n)
 {
 int i;
 int temp;
