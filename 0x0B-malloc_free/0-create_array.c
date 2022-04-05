@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * create_array - create an array of similar character
 * @c: the character
