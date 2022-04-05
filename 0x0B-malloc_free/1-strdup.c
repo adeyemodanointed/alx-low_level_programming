@@ -12,21 +12,21 @@ unsigned int i = 0;
 unsigned int count;
 char *y;
 
+if (*str == NULL)
+return (NULL);
+
 while (str[i] != '\0')
 {
 i++;
 }
 
 y = malloc(sizeof(char) * i);
-
+if (y == NULL)
+	return (NULL);
 for (count = 0; count < i; count++)
 {
 y[count] = str[count];
 }
 
-if (y == NULL)
-{
-return (NULL);
-}
 return (y);
 }
