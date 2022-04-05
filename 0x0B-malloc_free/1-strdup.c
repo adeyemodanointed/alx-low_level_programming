@@ -12,6 +12,8 @@ unsigned int i = 0;
 unsigned int count;
 char *y;
 
+if (!str)
+	return (NULL);
 while (str[i] != '\0')
 {
 i++;
