@@ -9,6 +9,7 @@
 char *_strdup(char *str)
 {
 unsigned int i = 0;
+unsigned int count;
 char *y;
 
 while (str[i] != '\0')
@@ -18,7 +19,6 @@ while (str[i] != '\0')
 
 y = malloc(sizeof(*str));
 
-unsigned int count;
 for(count = 0; count < i; count++)
 {
 y[count] = str[count];
