@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib>
 /**
 * _strdup - create duplicate of a string
 * @str: array of char
