@@ -14,12 +14,12 @@ char *y;
 
 while (str[i] != '\0')
 {
-    i++;
+i++;
 }
 
-y = malloc(sizeof(*str));
+y = malloc(sizeof(char) * i);
 
-for(count = 0; count < i; count++)
+for (count = 0; count < i; count++)
 {
 y[count] = str[count];
 }
