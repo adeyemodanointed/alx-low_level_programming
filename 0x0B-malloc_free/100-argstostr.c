@@ -22,7 +22,7 @@ count++;
 }
 }
 
-str = malloc(sizeof(char) * (count + ac));
+str = malloc(sizeof(char) * (count + ac + 1));
 if (str == NULL)
 return (NULL);
 
@@ -37,5 +37,6 @@ count++;
 str[count] = '\n';
 count++;
 }
+str[count - 1] = '\0';
 return (str);
 }
