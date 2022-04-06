@@ -26,7 +26,7 @@ y[i] = malloc(sizeof(int) * width);
 if (y[i] == NULL)
 {
 for ( ; i >=0; i--)
-free(y[i])
+free(y[i]);
 free(y);
 return (NULL);
 }
