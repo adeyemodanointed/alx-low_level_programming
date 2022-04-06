@@ -14,7 +14,7 @@ int **y;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-y = malloc(sizeof(int) * height);
+y = malloc(sizeof(int *) * height);
 if (y == NULL)
 return (NULL);
 
