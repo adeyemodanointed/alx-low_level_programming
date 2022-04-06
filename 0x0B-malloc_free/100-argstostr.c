@@ -37,6 +37,6 @@ count++;
 str[count] = '\n';
 count++;
 }
-str[count - 1] = '\0';
+
 return (str);
 }
