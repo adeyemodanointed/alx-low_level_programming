@@ -20,12 +20,12 @@ if (y == NULL)
 free(y);
 return (NULL);
 }
-for ( ; i < width; i++)
+for ( ; i < height; i++)
 {
 y[i] = malloc(sizeof(int) * width);
 if (y[i] == NULL)
 {
-for ( ; i >=0; i--)
+for ( ; i >= 0; i--)
 free(y[i]);
 free(y);
 return (NULL);
