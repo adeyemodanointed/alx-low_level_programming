@@ -22,7 +22,7 @@ count++;
 }
 }
 
-str = malloc(sizeof(char) * (count + ac - 1));
+str = malloc(sizeof(char) * (count + ac));
 if (str == NULL)
 return (NULL);
 
