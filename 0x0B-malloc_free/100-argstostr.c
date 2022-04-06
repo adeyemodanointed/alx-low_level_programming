@@ -16,7 +16,6 @@ return (NULL);
 
 for (i = 0; i < ac; i++)
 {
-printf("%d", i);
 for (j = 0; av[i][j] != '\0'; j++)
 {
 printf("%c", av[i][j]);
@@ -40,4 +39,4 @@ str[count] = '\n';
 count++;
 }
 return (str);
-}}
+}
