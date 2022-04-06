@@ -16,13 +16,16 @@ return (NULL);
 
 y = malloc(sizeof(int *) * height);
 if (y == NULL)
+{
+free(y);
 return (NULL);
-
+}
 for ( ; i < width; i++)
 {
 y[i] = malloc(sizeof(int) * width);
 if (y[i] == NULL)
 {
+free(y[i]);
 free(y);
 return (NULL);
 }
