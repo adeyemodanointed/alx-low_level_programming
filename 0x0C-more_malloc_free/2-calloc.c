@@ -18,4 +18,6 @@ return (NULL);
 mem = malloc(nmemb * size);
 if (mem == NULL)
 return (NULL);
+
+return (mem);
 }
