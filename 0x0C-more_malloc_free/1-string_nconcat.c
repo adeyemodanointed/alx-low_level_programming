@@ -27,7 +27,7 @@ count = count1 + count2;
 else
 count = count1 + n;
 
-check = malloc(sizeof(char) * count + 1);
+check = malloc(sizeof(char) * count);
 if (check == NULL)
 return (NULL);
 
