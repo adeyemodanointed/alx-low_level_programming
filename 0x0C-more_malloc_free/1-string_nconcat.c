@@ -11,9 +11,9 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-int count1, count2, count;
+unsigned int count1, count2, count;
 char *check;
-int i;
+unsigned int i;
 
 for (count1 = 0; s1[count1] != '\0'; count1++)
 	;
