@@ -27,6 +27,8 @@ return (NULL);
 }
 else
 {
+ptr = *head;
+while (ptr->next != NULL)
 {
 ptr = ptr->next;
 }
