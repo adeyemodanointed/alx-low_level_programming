@@ -16,6 +16,6 @@ free(temp);
 temp = *head;
 }
 free(temp);
-free(*head);
+
 *head = NULL;
 }
