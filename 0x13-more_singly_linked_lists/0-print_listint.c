@@ -17,5 +17,6 @@ n++;
 
 ptr = ptr->next;
 }
+
 return (n);
 }
